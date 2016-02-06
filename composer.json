@@ -1,0 +1,22 @@
+{
+    "name": "nia/dependencyinjection",
+    "type": "library",
+    "description": "nia component for dependency injection handling.",
+    "keywords": ["nia", "dependency-injection"],
+    "homepage": "http://www.nat-software.de",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Patrick Ullmann",
+            "email": "patrick.ullmann@nat-software.de",
+            "role": "lead"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": { "Nia\\DependencyInjection\\": "sources/",  "Test\\Nia\\DependencyInjection\\": "tests/" }
+    },
+    "minimum-stability": "dev"
+}
